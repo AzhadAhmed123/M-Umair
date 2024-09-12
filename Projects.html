@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbr flex-container page-width">
+        <div class="navbr-logo">
+            <img src="imag/logo.png" alt="">
+        </div>
+        <ul class="menu1">
+            <li class="list-link-item-1">
+                <a href="index.html" class="link-item-1">Home</a>
+            </li>
+            <li class="list-link-item-1">
+                <a href="aboutme.html" class="link-item-1">About Me</a>
+            </li>
+            <li class="list-link-item-1">
+                <a href="Service.html" class="link-item-1">Services</a>
+            </li>
+            <li class="list-link-item-1">
+                <a href="Projects.html" class="link-item-1">Projects</a>
+            </li>
+            <li class="list-link-item-1">
+                <a href="Testimonials.html" class="link-item-1">Testimonials</a>
+            </li>
+            <li class="list-link-item-1">
+                <a href="Contact.html" class="link-item-1">Contact</a>
+            </li>
+            <button class="navbr-btn" >Download CV</button>
+        </ul>
+        <div id="mySidepanel" class="sidepanel">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <br>
+            <a href="index.html" class="link-item-1">Home</a>
+            <a href="aboutme.html" class="link-item-1">About Me</a>
+            <a href="Service.html" class="link-item-1">Services</a>
+            <a href="Projects.html" class="link-item-1">Projects</a>
+            <a href="Testimonials.html" class="link-item-1">Testimonials</a>
+            <a href="Contact.html" class="link-item-1">Contact</a>
+            <button class="navbr-btn" id="btn-hamburger">Download CV</button>
+        </div>
+        <button class="openbtn" onclick="openNav()">&#9776;</button>
+    </nav>
+    <section class="section-5 page-width main-style">
+        <div class="section-5-uper-text-items">
+            <h2 class="uper-text-h2">My Projects</h2>
+            <p class="uper-text-para">Lorem ipsum dolor sit amet consectetur. Mollis erat duis aliquam mauris est risus
+                lectus. Phasellus
+                consequat urna tellus</p>
+        </div>
+        <div>
+            <div class="tab tabs-main ">
+                <button class="tablinks-1 active" onclick="openCity(event, 'All')">All</button>
+                <button class="tablinks-2" onclick="openCity(event, 'UI/UX')">UI/UX</button>
+                <button class="tablinks-3" onclick="openCity(event, 'Web Design')">Web Design</button>
+            </div>
+
+            <div id="All" class="tabcontent" style="display: block;">
+                <div class="tab-items page-width main-style">
+                    <div>
+                        <img src=" imag/Web-desing1.png" alt="">
+                        <h5 class="content">Web Design </h5>
+                        <h3 class="tab-inner-heading">AirCalling Landing Page Design </h3>
+                    </div>
+                    <div>
+                        <img src="imag/web-design-2.png" alt="">
+                        <h5 class="content">Web Design </h5>
+                        <h3 class="tab-inner-heading">Business Landing Page Design </h3>
+                    </div>
+                    <div>
+                        <img src="imag/web-design3.png" alt="">
+                        <h5 class="content">Web Design </h5>
+                        <h3 class="tab-inner-heading">Ecom Web Page Design </h3>
+                    </div>
+                </div>
+            </div>
+
+            <div id="UI/UX" class="tabcontent" style="display: none;">
+                <div class="flex-container tab-items">
+
+                    <div>
+                        <img src="imag/web-design-2.png" alt="">
+                        <h5 class="content">Web Design </h5>
+                        <h3 class="tab-inner-heading">Business Landing Page Design </h3>
+                    </div>
+                    <div>
+                        <img src="imag/Web-desing1.png" alt="">
+                        <h5 class="content">Web Design </h5>
+                        <h3 class="tab-inner-heading">AirCalling Landing Page Design </h3>
+                    </div>
+                    <div>
+                        <img src="imag/web-design3.png" alt="">
+                        <h5 class="content">Web Design </h5>
+                        <h3 class="tab-inner-heading">Ecom Web Page Design </h3>
+                    </div>
+                </div>
+            </div>
+
+            <div id="Web Design" class="tabcontent" style="display: none;">
+                <div class="flex-container tab-items">
+                    <div>
+                        <img src="imag/Web-desing1.png" alt="">
+                        <h5 class="content">Web Design </h5>
+                        <h3 class="tab-inner-heading">AirCalling Landing Page Design </h3>
+                    </div>
+                    <div>
+                        <img src="imag/web-design3.png" alt="">
+                        <h5 class="content">Web Design </h5>
+                        <h3 class="tab-inner-heading">Ecom Web Page Design </h3>
+                    </div>
+                    <div>
+                        <img src="imag/web-design-2.png" alt="">
+                        <h5 class="content">Web Design </h5>
+                        <h3 class="tab-inner-heading">Business Landing Page Design </h3>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="copyright">
+        "© 2024 Developed by"
+        <a class="creater-link" href="https://pk.linkedin.com/in/azhad-ahmed-a365232b4?trk=people-guest_people_search-card">Azhad Ahmed</a>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
